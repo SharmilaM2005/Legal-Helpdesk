@@ -58,8 +58,6 @@ permission_query_conditions = {
 }
 
 # DocType Class
-# ---------------
-# Override standard doctype classes
 override_doctype_class = {
     "Email Account": "legal_helpdesk.overrides.email_account.CustomEmailAccount",
 }
@@ -69,11 +67,7 @@ ignore_links_on_delete = [
     "HD Ticket Comment",
 ]
 
-# setup wizard
-# setup_wizard_requires = "assets/legal_helpdesk/js/setup_wizard.js"
-# setup_wizard_stages = "legal_helpdesk.setup.setup_wizard.get_setup_stages"
 setup_wizard_complete = "legal_helpdesk.setup.setup_wizard.setup_complete"
 
 # Testing
-# ---------------
 before_tests = "legal_helpdesk.test_utils.before_tests"
