@@ -1,5 +1,5 @@
 [project]
-name = "helpdesk"
+name = "legal_helpdesk"
 authors = [
     { name = "Frappe Technologies Pvt Ltd", email = "hello@frappe.io"}
 ]
@@ -11,6 +11,7 @@ dependencies = [
     # Core dependencies
     "textblob==0.18.0.post0",
 ]
+
 [build-system]
 requires = ["flit_core >=3.4,<4"]
 build-backend = "flit_core.buildapi"
